@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-commerce Store</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header>
+        <h1>My Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            </section>
+
+        <section class="product-categories">
+            <h2>Browse Categories</h2>
+            <ul>
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                </ul>
+        </section>
+    </main><div class="product">
+        <img src="images/product1.jpg" alt="Product image">
+        <h3>Product Name</h3>
+        <p>Product description</p>
+        <span class="price">$19.99</span>
+        <button>Add to Cart</button>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2024 My Store</p>
+    </footer>
+</body>
+</html>
